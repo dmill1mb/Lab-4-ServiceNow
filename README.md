@@ -350,3 +350,5 @@ Looking back across all four labs, they form a stack that maps to how an IT envi
 Lab 1 built the identity layer — Active Directory controls who can log into what and what policies apply to their machines. Lab 2 built the network visibility layer — Wireshark shows what is actually moving across the wire when something goes wrong. Lab 3 built the log aggregation layer — Splunk collects what everything in the environment is doing and makes it searchable. Lab 4 built the process layer — ServiceNow is the system that structures how IT responds when something in those first three layers breaks or needs to change.
 
 A sysadmin operates across all four. When an alert fires in Splunk, they investigate with the identity context from AD and the network context from packet analysis, then document the resolution in ServiceNow and submit a change request if infrastructure needs to be modified to prevent recurrence. The labs were built separately but they describe the same environment.
+## 📬 Contact
+**Demarcus Miller** —  · [www.linkedin.com/in/demarcus-miller-96502b1a7] · [MillerSDemarcus@gmail.com]
