@@ -249,7 +249,35 @@ Change requests require manager approval before work begins. This is a core ITIL
 ### Create the change request
 
 1. Navigate to **Change → Changes → New (Standard)**
-2. Fill in the request:
+2. skip next part if this get you into Change Managment.
+3. ## Troubleshooting: Change Management Module Not Visible in "All" Navigation (Australia PDI Instance)
+
+### Issue
+
+On the Australia-based ServiceNow Personal Developer Instance (PDI), the **Change Management** application is not listed under the **All** section of the application navigator. Searching directly for "Change" or "Change Management" in the All menu returns no visible module or menu item, making the application appear inaccessible through standard navigation.
+
+### Environment
+
+- **Instance:** Australia
+- **Instance type:** Personal Developer Instance (PDI)
+- **Affected module:** Change Management
+
+### Root Cause
+
+The Change Management application is present on the instance but is not surfaced as a top-level entry in the **All** navigation menu on this particular PDI configuration. Standard menu browsing does not expose the module, but it remains fully accessible through the global search bar.
+
+### Resolution / Workaround
+
+Change Management can be reached using the top-right global search bar instead of the All menu:
+
+1. Click the **search icon** in the top-right corner of the instance.
+2. Type **"change"** into the search field.
+3. Scroll through the results until you see the group labeled:
+   **Tasks - Change Requests (10 of 90)**
+4. Click **View all Tasks - Change Requests** to switch to list view.
+5. From the Change Request list view, click **New**.
+6. Select **Standard** as the change type, then click **Continue**.
+7. The Change Request form will now open, and a new change request can be created.
 
 | Field | Value |
 |---|---|
@@ -260,11 +288,21 @@ Change requests require manager approval before work begins. This is a core ITIL
 | Start date | Next Saturday at 2:00 AM |
 | End date | Next Saturday at 6:00 AM |
 | Description | `Monthly security patch deployment. Patch addresses CVE-2024-0001 rated CVSS 7.8. Workstations will require one reboot. Deployed via WSUS. Rollback plan: uninstall via WSUS if issues reported post-deployment.` |
+<img width="1912" height="863" alt="image" src="https://github.com/user-attachments/assets/fc461856-9c66-475a-8f24-842b71f7b12e" />
+
 
 3. Under the **Planning** tab, add a Test Plan and a Backout Plan
-4. Click **Request Approval** — this moves the change to **Pending Approval** state
-5. Navigate back to the change, find the **Approvals** tab, and approve it as the admin user
-6. The change moves to **Scheduled** state
+4. <img width="1412" height="740" alt="image" src="https://github.com/user-attachments/assets/bf2d6497-6c5f-4cff-bf04-da598e398d8e" />
+
+5. Click **Request Approval** — this moves the change to **Pending Approval** state
+6. <img width="1605" height="350" alt="image" src="https://github.com/user-attachments/assets/0543f203-eea8-42b9-8e2d-220150cef2d2" />
+
+7. Navigate back to the change, find the **Approvals** tab, and approve it as the admin user
+
+8. <img width="1904" height="532" alt="image" src="https://github.com/user-attachments/assets/9007cd75-8085-4ed2-a13a-d4dd29c3b5cb" />
+
+9. The change moves to **Scheduled** state
+<img width="1901" height="822" alt="image" src="https://github.com/user-attachments/assets/76373130-20e2-45d9-9259-66c2ab866b67" />
 
 **Why the approval workflow matters:** in an enterprise environment, an unapproved change to a production system can trigger a major incident, fail a compliance audit, or violate a change freeze during a critical business period. The approval workflow creates a documented trail — who requested the change, what the risk assessment was, who approved it, and when. That trail is what auditors look for and what incident responders rely on when something goes wrong after a deployment.
 
@@ -284,6 +322,8 @@ Reports give IT management visibility into operational performance. Without them
    - **Group by:** Priority
    - **Condition:** Created is on or after `30 days ago`
 3. Click **Save and Run**
+
+<img width="1910" height="861" alt="image" src="https://github.com/user-attachments/assets/731208cf-31b9-4e8b-9395-d39e979b37ca" />
 
 ### Build two more reports for your portfolio
 
