@@ -14,9 +14,9 @@
 
 ## Why this lab matters
 
-When users report IT problems, those problems need to be tracked, routed, prioritised, assigned, worked, and resolved — consistently and auditably. Without a structured system, things fall through the cracks. A server goes down, three people report it to three different team members, nobody knows which one is working it, and a one-hour fix turns into a four-hour outage.
+When users report IT problems, those problems need to be tracked, routed, prioritized, assigned, worked, and resolved — consistently and auditable. Without a structured system, things fall through the cracks. A server goes down, three people report it to three different team members, nobody knows which one is working it, and a one-hour fix turns into a four-hour outage.
 
-ServiceNow is how most enterprise IT organisations solve this. It is an IT Service Management platform — a structured system for handling every type of IT request, from a password reset to a major infrastructure outage. It enforces process: incidents follow an incident workflow, change requests require approval, service requests come from a catalogue with predefined fulfilment steps.
+ServiceNow is how most enterprise IT organizations solve this. It is an IT Service Management platform — a structured system for handling every type of IT request, from a password reset to a major infrastructure outage. It enforces process: incidents follow an incident workflow, change requests require approval, service requests come from a catalogue with predefined fulfilment steps.
 
 ServiceNow is one of the most widely deployed enterprise software platforms in the world. If you are going into IT support, you will use it — or something that works exactly like it — from your first week on the job. Having hands-on experience before you start is a meaningful differentiator.
 
@@ -249,8 +249,8 @@ Change requests require manager approval before work begins. This is a core ITIL
 ### Create the change request
 
 1. Navigate to **Change → Changes → New (Standard)**
-2. skip next part if this get you into Change Managment.
-3. ## Troubleshooting: Change Management Module Not Visible in "All" Navigation (Australia PDI Instance)
+2. skip next part if this get you into Change Management.
+3. Troubleshooting: Change Management Module Not Visible in "All" Navigation (Australia PDI Instance)
 
 ### Issue
 
@@ -315,13 +315,16 @@ Reports give IT management visibility into operational performance. Without them
 ### Incident volume by priority
 
 1. Navigate to **Reports → Create New**
-2. Fill in:
+<img width="321" height="541" alt="image" src="https://github.com/user-attachments/assets/1465c52b-56aa-4688-8074-cc1ce30a976c" />
+
+
+3. Fill in:
    - **Name:** `Incident Volume by Priority — Last 30 Days`
-   - **Data:** Incident [incident]
+   - **Data:** Incident[incident]
    - **Type:** Bar Chart
    - **Group by:** Priority
    - **Condition:** Created is on or after `30 days ago`
-3. Click **Save and Run**
+4. Click **Save and Run**
 
 <img width="1910" height="861" alt="image" src="https://github.com/user-attachments/assets/731208cf-31b9-4e8b-9395-d39e979b37ca" />
 
@@ -329,7 +332,11 @@ Reports give IT management visibility into operational performance. Without them
 
 **Mean Time to Resolution (MTTR) by assignment group** — bar chart grouped by Assignment Group. This shows which teams are resolving tickets fastest and which have a backlog problem. In a real environment, MTTR by team feeds staffing decisions and training investments.
 
+<img width="1900" height="823" alt="image" src="https://github.com/user-attachments/assets/f466b84b-276e-47a5-bb60-e6d26bb838c4" />
+
 **Open incidents by assigned agent** — useful for workload balancing. If one agent has 40 open tickets and another has 5, a manager needs to see that before the first agent burns out or SLAs start breaching.
+
+<img width="1543" height="810" alt="image" src="https://github.com/user-attachments/assets/9abbff8b-6a63-4bc3-a7bd-2b6b564e4bc4" />
 
 ---
 
