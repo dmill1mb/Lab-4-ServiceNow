@@ -162,19 +162,23 @@ Take five minutes to click through each of these before starting Step 3. Underst
 
 3. Click **Submit**
 4. Note the ticket number (format: `INC0001234`) — this is the tracking ID for every subsequent action
+<img width="1910" height="494" alt="image" src="https://github.com/user-attachments/assets/14d77ec7-76ba-4758-b3fb-a0e73e336531" />
 
 ### Work the incident
 
 1. Open the incident you just created
 2. Change **State** to `In Progress`
 3. Set **Assigned to** to yourself — click the field and search your username
-4. Add a **Work Note** (visible to IT staff only, not the caller):
+4. <img width="1889" height="453" alt="image" src="https://github.com/user-attachments/assets/0c710234-7996-4fa2-a0d0-13efd44042d1" />
+
+5. Add a **Work Note** (visible to IT staff only, not the caller):
 
 ```
 Contacted user. Confirmed error message. Outlook profile appears corrupted.
 Attempting profile repair. Instructed user to use OWA (webmail) in the interim.
 Resolution ETA: 30 minutes.
 ```
+<img width="1597" height="491" alt="image" src="https://github.com/user-attachments/assets/b6459b27-0135-4a3e-9d69-50fc1fb36cad" />
 
 5. Add a resolution in the **Resolution Notes** field:
 
@@ -183,10 +187,13 @@ Rebuilt Outlook profile. Removed and re-added the Exchange account.
 User confirmed Outlook is working. Issue was a corrupted OST file.
 Closed with user confirmation.
 ```
+<img width="1604" height="214" alt="image" src="https://github.com/user-attachments/assets/8168779a-7e56-43b1-90fd-f40ca3f30c67" />
+
 
 6. Change **State** to `Resolved`, then `Closed`
+<img width="1902" height="474" alt="image" src="https://github.com/user-attachments/assets/edf16519-9e13-4e88-8aac-9e467f7cd435" />
 
-**What you just did:** you followed the full ITIL incident lifecycle — detection, logging, categorisation, prioritisation, assignment, investigation, resolution, and closure. Every IT support role performs this sequence dozens of times a day.
+**What you just did:** you followed the full ITIL incident lifecycle — detection, logging, categorization, prioritization, assignment, investigation, resolution, and closure. Every IT support role performs this sequence dozens of times a day.
 
 ---
 
