@@ -215,6 +215,7 @@ Service catalogue items let users request common IT services through a self-serv
 | Description | `Use this form to request a new laptop for a new hire or to replace a failed or end-of-life device. Requests are reviewed within 2 business days. Delivery takes 5–7 business days after approval.` |
 | Fulfillment group | IT Hardware Team |
 | Price | Leave blank — internal requests do not have a user-facing cost |
+<img width="1769" height="737" alt="image" src="https://github.com/user-attachments/assets/937514d2-0a76-4fa4-ad66-a267ff8a6f75" />
 
 4. Click **Submit** to save
 5. Click the **Variables** tab and add the following fields:
@@ -222,11 +223,20 @@ Service catalogue items let users request common IT services through a self-serv
 | Variable Name | Type | Mandatory |
 |---|---|---|
 | Requester Name | Single Line Text | Yes |
+<img width="1868" height="657" alt="image" src="https://github.com/user-attachments/assets/e506b091-f0be-425c-8fe0-1e748a8a1018" />
+
 | Business Justification | Multi Line Text | Yes |
+<img width="1819" height="613" alt="image" src="https://github.com/user-attachments/assets/0b60d2ff-e85e-4b51-91bc-f2f33a78536b" />
+
 | Required By Date | Date | Yes |
+<img width="1802" height="630" alt="image" src="https://github.com/user-attachments/assets/0f697d5d-d68f-43c6-a51d-a93207be3dc4" />
+
 | Laptop Model Preference | Select Box (Options: Standard / Developer / Executive) | No |
+<img width="1896" height="818" alt="image" src="https://github.com/user-attachments/assets/b61a71e7-33e4-402a-87bf-00bca34dd558" />
+
 
 6. Save and click **Preview** — the item now appears in the service catalogue portal as a user would see it
+<img width="1903" height="855" alt="image" src="https://github.com/user-attachments/assets/514cf782-56d1-48e2-8eb2-c891e74fbddd" />
 
 **Why this matters:** every self-service request that comes through the catalogue instead of a phone call or email is a measurable reduction in unstructured work. Catalogue items also enforce data collection — the variables you defined mean every request arrives with the information needed to fulfil it, rather than requiring the IT team to chase the requester for details.
 
