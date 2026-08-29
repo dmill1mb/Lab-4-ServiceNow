@@ -1,3 +1,5 @@
+## Loom Video
+https://www.loom.com/share/58086de4279545a28cadb9dc7a156fd6
 # Lab 4 — ServiceNow ITSM
 
 **Personal Developer Instance (Free) · No Credit Card · ITSM · ITIL**
@@ -11,8 +13,7 @@
 | Career relevance | IT Support · Help Desk · Sysadmin · ITSM Platform Administrator |
 
 ---
-## Loom Video
-https://www.loom.com/share/58086de4279545a28cadb9dc7a156fd6
+
 ## Why this lab matters
 
 When users report IT problems, those problems need to be tracked, routed, prioritized, assigned, worked, and resolved — consistently and auditable. Without a structured system, things fall through the cracks. A server goes down, three people report it to three different team members, nobody knows which one is working it, and a one-hour fix turns into a four-hour outage.
